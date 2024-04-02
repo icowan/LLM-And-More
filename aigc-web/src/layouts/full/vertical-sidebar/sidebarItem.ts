@@ -20,7 +20,6 @@ import {
   IconAdjustmentsDown,
   IconPhotoUp,
   IconPhotoX,
-  IconPhotoCheck,
   IconTools
 } from "@tabler/icons-vue";
 
@@ -113,6 +112,9 @@ let sidebarItem: menu[] = [
       // }
     ]
   },
+
+  //delete
+  // { header: "intelligentVoiceprint" },
   // {
   //   title: "voiceprintRecognition",
   //   icon: IconVolume2,
@@ -177,56 +179,6 @@ let sidebarItem: menu[] = [
   //   to: "/voice-print/denoise-list"
   // },
 
-  // { header: "voiceServices" },
-  // {
-  //   title: "voiceToText",
-  //   icon: IconReplace,
-  //   to: "/voice-print/translation"
-  // },
-  // {
-  //   title: "ttsSynthesis",
-  //   icon: IconHexagons,
-  //   to: "/",
-  //   children: [
-  //     {
-  //       title: "speakerManagement",
-  //       icon: IconCircleDot,
-  //       iconSize: "small",
-  //       to: "/voice-print/synthesis/speaker"
-  //     },
-  //     {
-  //       title: "ttsSynthesisList",
-  //       icon: IconCircleDot,
-  //       iconSize: "small",
-  //       to: "/voice-print/synthesis/voice-list"
-  //     }
-  //   ]
-  // },
-  // {
-  //   title: "intelligentVoiceprint",
-  //   icon: IconColumns2,
-  //   to: "/",
-  //   children: [
-  //     {
-  //       title: "voiceprintLibrary",
-  //       icon: IconCircleDot,
-  //       iconSize: "small",
-  //       to: "/voice-print/library-list"
-  //     },
-  //     {
-  //       title: "voiceprintCompareList",
-  //       icon: IconCircleDot,
-  //       iconSize: "small",
-  //       to: "/voice-print/compare-list"
-  //     }
-  //   ]
-  // },
-  // {
-  //   title: "voiceDenoiseList",
-  //   icon: IconAdjustmentsDown,
-  //   to: "/voice-print/denoise-list"
-  // },
-
   // { header: "imageServices" },
   // {
   //   title: "imageSuperResolution",
@@ -235,13 +187,8 @@ let sidebarItem: menu[] = [
   // },
   // {
   //   title: "imageMatting",
-  //   icon: IconPhotoCheck,
-  //   to: "/image-services/image-matting/list"
-  // },
-  // {
-  //   title: "faceRecognition",
   //   icon: IconPhotoX,
-  //   to: "/image-services/face-recognition/list"
+  //   to: "/image-services/image-matting/list"
   // },
 
   // { header: "videoService" },

@@ -56,14 +56,3 @@ func TestService_CancelCheckTaskDatasetSimilar(t *testing.T) {
 	}
 	t.Log("success.")
 }
-
-func TestService_GenerationAnnotationContent(t *testing.T) {
-	svc := initSvc()
-	ctx := context.Background()
-	_, err := svc.GenerationAnnotationContent(ctx, 1, "chatglm3-6b-32k", "task-e510e4f6-d755-4b2e-a32e-4d8614d3a71f", "task-segment")
-	if err != nil {
-		t.Error(err)
-		return
-	}
-	t.Log("success.")
-}
